@@ -1,0 +1,35 @@
+{
+  "name": "csvload",
+  "version": "1.0.0",
+  "description": "import and verify data from CSV file",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "load": "node dist action=loadFromCSV",
+    "check": "node dist action=generateReport",
+    "lint": "tslint --project . --fix && pretty-quick --pattern 'src/**/*'"
+  },
+  "keywords": [
+    "csv",
+    "import",
+    "file",
+    "mongo"
+  ],
+  "author": "Vladyslav Shapovalov",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/config": "0.0.36",
+    "@types/mongoose": "^5.7.7",
+    "@types/papaparse": "^5.0.3",
+    "config": "^3.3.1",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1",
+    "ts-lint": "^4.5.1",
+    "ts-node": "^8.7.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "mongoose": "^5.9.7",
+    "papaparse": "^5.1.1"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "csvFilePath": "./csvfiles/example.csv",
+  "reportFilePath": "./csvfiles/report.csv",
+  "db" : {
+    "mongo": {
+      "host": "localhost",
+      "port": 27017,
+      "database": "test" 
+    }
+  }
+}
