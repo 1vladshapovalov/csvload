@@ -30,6 +30,6 @@
   },
   "dependencies": {
     "mongoose": "^5.9.7",
-    "papaparse": "^5.1.1"
+    "papaparse": "^5.2.0"
   }
 }
